@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnotherWindow</class>
+ <widget class="QMainWindow" name="AnotherWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1172</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 255, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="7" rowspan="5">
+     <widget class="QFrame" name="frame">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Приветсвуем!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelName">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;имя пользователя&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Вы вошли с правами:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelRoll">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;роль&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fullGuild_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+         </property>
+         <property name="text">
+          <string>Руководсво</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fullInfo_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+         </property>
+         <property name="text">
+          <string>О программе</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fullExit_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+         </property>
+         <property name="text">
+          <string>Выход</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AdminButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+         </property>
+         <property name="text">
+          <string>Администратор</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="6" column="8" colspan="6">
+     <spacer name="horizontalSpacer_14">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="6" column="5">
+     <widget class="QPushButton" name="addPartGOST">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="7">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;список сборок&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="6">
+     <spacer name="horizontalSpacer_13">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="0" colspan="7">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Редактор сборки&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <spacer name="horizontalSpacer_15">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="12">
+     <widget class="QPushButton" name="upPart">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Обновить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="8" colspan="6">
+     <widget class="QTableView" name="tableViewAudit">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;список операций за всё время&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+	border: 2px solid #005870;
+     border-radius: 2px;
+     background-color: white;
+     selection-background-color: rgb(0, 85, 255);
+ }
+QTableView QTableCornerButton::section {
+     background: #0040ff;
+     border: 2px outset #0004ff;
+ }</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="7">
+     <widget class="QLabel" name="S">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Состояние базы данных&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="8" colspan="6">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>339</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="11">
+     <widget class="QPushButton" name="delPart">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="7">
+     <widget class="QTableView" name="tableViewBuilds">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;список всех сборок в системе&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+	border: 2px solid #005870;
+     border-radius: 2px;
+     background-color: white;
+     selection-background-color: rgb(0, 85, 255);
+ }
+QTableView QTableCornerButton::section {
+     background: #0040ff;
+     border: 2px outset #0004ff;
+ }</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="9">
+     <widget class="QPushButton" name="delAudit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 100px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Удалить запись</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="8">
+     <spacer name="horizontalSpacer_8">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>77</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="8" colspan="6">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Шаблонные детали&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8" colspan="6">
+     <widget class="QTableView" name="tableViewGOST">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;список шаблонных деталей&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+	border: 2px solid #005870;
+     border-radius: 2px;
+     background-color: white;
+     selection-background-color: rgb(0, 85, 255);
+ }
+QTableView QTableCornerButton::section {
+     background: #0040ff;
+     border: 2px outset #0004ff;
+ }</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEdit" name="lineEditGOST">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;номер ГОСТ это 5 цыфр&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid #005870;
+     border-radius: 2px;
+     padding: 1px;
+     background: rgb(255, 255, 255);
+     selection-background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>ГОСТ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="8">
+     <spacer name="horizontalSpacer_9">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>77</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="redParts">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="13">
+     <spacer name="horizontalSpacer_10">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>74</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="delParts">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2" colspan="2">
+     <widget class="QPushButton" name="redBuilds">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="addPartLocal">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Локальную</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="7">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>501</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="10">
+     <spacer name="horizontalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="6">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>78</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="0">
+     <spacer name="horizontalSpacer_11">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="6">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>78</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="10">
+     <widget class="QPushButton" name="redPArt">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="12" colspan="2">
+     <spacer name="horizontalSpacer_7">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>74</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="5">
+     <widget class="QPushButton" name="upBuilds">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Обновить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>добавить деталь:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <spacer name="horizontalSpacer_12">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="7" rowspan="2">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="11">
+     <widget class="QPushButton" name="upAudit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Обновить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="9">
+     <widget class="QPushButton" name="addPart">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="8" colspan="6">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;данные аудита&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QPushButton" name="upParts">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Обновить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QPushButton" name="delBuilds">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2" colspan="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>по номеру ГОСТ:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="addBuilds">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid #005870;
+     border-radius: 2px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #b8f0ff, stop: 1 #57d5f7);
+
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #005870, stop: 1 #00c8ff);
+ }</string>
+      </property>
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>90</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="0" colspan="7">
+     <widget class="QTableView" name="tableViewParts">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;редактор выбранной сборки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+	border: 2px solid #005870;
+     border-radius: 2px;
+     background-color: white;
+     selection-background-color: rgb(0, 85, 255);
+ }
+QTableView QTableCornerButton::section {
+     background: #0040ff;
+     border: 2px outset #0004ff;
+ }</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>frame</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_2</zorder>
+   <zorder>tableViewBuilds</zorder>
+   <zorder>tableViewGOST</zorder>
+   <zorder>addBuilds</zorder>
+   <zorder>redBuilds</zorder>
+   <zorder>upBuilds</zorder>
+   <zorder>addPart</zorder>
+   <zorder>redPArt</zorder>
+   <zorder>delPart</zorder>
+   <zorder>upPart</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>tableViewParts</zorder>
+   <zorder>tableViewAudit</zorder>
+   <zorder>upParts</zorder>
+   <zorder>delAudit</zorder>
+   <zorder>S</zorder>
+   <zorder>delBuilds</zorder>
+   <zorder>upAudit</zorder>
+   <zorder>horizontalSpacer_6</zorder>
+   <zorder>horizontalSpacer_13</zorder>
+   <zorder>horizontalSpacer_14</zorder>
+   <zorder>verticalSpacer_2</zorder>
+   <zorder>horizontalSpacer_11</zorder>
+   <zorder>label_5</zorder>
+   <zorder>addPartLocal</zorder>
+   <zorder>delParts</zorder>
+   <zorder>redParts</zorder>
+   <zorder>horizontalSpacer_12</zorder>
+   <zorder>horizontalSpacer_15</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEditGOST</zorder>
+   <zorder>addPartGOST</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1172</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

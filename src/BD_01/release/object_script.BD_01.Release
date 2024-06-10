@@ -1,0 +1,10 @@
+release/addbuilds.o
+release/adminroom.o
+release/anotherwindow.o
+release/main.o
+release/mainwindow.o
+release/qrc_resource.o
+release/moc_addbuilds.o
+release/moc_adminroom.o
+release/moc_anotherwindow.o
+release/moc_mainwindow.o

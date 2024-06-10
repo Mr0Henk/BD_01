@@ -1,0 +1,10 @@
+debug/addbuilds.o
+debug/adminroom.o
+debug/anotherwindow.o
+debug/main.o
+debug/mainwindow.o
+debug/qrc_resource.o
+debug/moc_addbuilds.o
+debug/moc_adminroom.o
+debug/moc_anotherwindow.o
+debug/moc_mainwindow.o
